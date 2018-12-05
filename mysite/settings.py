@@ -25,7 +25,7 @@ SECRET_KEY = 'l(n8wqj0yhqk2ri903j+1*x4^s005fcl%2fz(91e^nqp&n5(=z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = {'stulu.pythonanywhere.com'}
 
 
 # Application definition
