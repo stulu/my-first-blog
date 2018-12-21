@@ -1,11 +1,11 @@
 from django import forms
-
+from ckeditor.fields import RichTextField
 from .models import Post
-from django_summernote.widgets import SummernoteWidget
+#from django_summernote.widgets import SummernoteWidget
 
 
 class PostForm(forms.ModelForm):
-    text = forms.CharField(widget=SummernoteWidget())
+    text = RichTextField()
 
     class Meta:
         model = Post

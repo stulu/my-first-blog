@@ -38,8 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'django_summernote',
-
+    #'django_summernote',
+    'ckeditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -52,7 +53,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+CKEDITOR_UPLOAD_PATH= 'UPLOADS/'
 ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATES = [
